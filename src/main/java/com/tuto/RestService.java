@@ -11,11 +11,11 @@ import javax.ws.rs.core.Response;
 import org.json.JSONObject;
 
 
-@Path("/rest")
+@Path("/services")
 public class RestService {
 	
-		@GET
-	  @Path("/test")
+	@GET
+	  @Path("/isRegistred")
 	@Produces(MediaType.APPLICATION_JSON)
 	  public Response isRegistred() throws Exception {
 	    
